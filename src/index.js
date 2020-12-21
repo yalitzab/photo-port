@@ -1,3 +1,5 @@
+// Create React App (CRA) comes with service worker support
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
