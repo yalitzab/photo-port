@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-
+import coverImage from './assets/cover/cover-image.jpg';
 
 function App() {
-
+ const [categories, setCategories] = useState([
+])
   return (
     <div>
-      <Nav />
+      <Nav categories={categories}  />
       <main>
-          <About />        
+          <About coverImage={coverImage} />        
       </main>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About() {
+function About({coverImage}) {
   return (
     <section className="my-5" >
       <h1 id="about">Who am I?</h1>
