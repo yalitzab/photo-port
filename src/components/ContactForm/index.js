@@ -1,6 +1,4 @@
 function ContactForm() {
-
-
     // JSX
     return (
         <section>
